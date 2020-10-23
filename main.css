@@ -126,7 +126,7 @@ hr.solid {
   }
 
 /* Mobile View - displays Hamburger only; changes font */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .topNav a {display: none;}
     .topNav a.hamburger {
       display: block;
@@ -134,10 +134,13 @@ hr.solid {
     h2 {
         font-size: 16px;
     }
+    .container {
+        flex-direction: column;
+    };
   }
 
 /* Hamburger Menu for Mobile */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .topHeader.responsive {
         height: 15%;
     }
